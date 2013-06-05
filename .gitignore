@@ -3,3 +3,6 @@ impact/lib/game/entities/delay.js
 impact/lib/impact/
 impact/lib/weltmeister/
 impact/tools/
+impact/media/.DS_Store
+sprites/.DS_Store
+.gitignore~

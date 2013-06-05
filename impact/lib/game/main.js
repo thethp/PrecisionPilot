@@ -12,6 +12,7 @@ MyGame = ig.Game.extend({
 	
 	init: function() {
 		this.loadLevel(LevelBlankfield);
+        ig.input.bind(ig.KEY.UP_ARROW, 'forwardOne');
 	},
 	
 	update: function() {
@@ -36,6 +37,6 @@ MyGame = ig.Game.extend({
 
 // Start the Game with 60fps, a resolution of 320x240, scaled
 // up by a factor of 2
-ig.main( '#canvas', MyGame, 60, 320, 240, 2 );
+ig.main( '#canvas', MyGame, 60, 800, 800, 1 );
 
 });
