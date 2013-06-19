@@ -13,6 +13,10 @@ MyGame = ig.Game.extend({
 	init: function() {
 		this.loadLevel(LevelBlankfield);
         ig.input.bind(ig.KEY.UP_ARROW, 'forwardOne');
+        ig.input.bind(ig.KEY.LEFT_ARROW, 'turnLeft');
+        ig.input.bind(ig.KEY.RIGHT_ARROW, 'turnRight');
+        ig.input.bind(ig.KEY.U, 'uTurn');
+        ig.input.bind(ig.KEY.DOWN_ARROW, 'reverseOne');
 	},
 	
 	update: function() {
